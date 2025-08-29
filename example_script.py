@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 19 13:04:52 2025
-
-@author: peake
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -39,6 +32,7 @@ index1 = 5401 # top of ratio
 index2 = 1143 # bottom of ratio
 plt.plot(pos,lum_ratios[:,index1,index2]) # could choose to plot against FUV instead
 plt.yscale('log'); plt.ylabel('Line Ratio'); plt.xlabel('Distance [pc]'); plt.title(f'{lines[index1]}  /  {lines[index2]}')
+
 
 
 
